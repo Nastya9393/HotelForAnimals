@@ -6,6 +6,10 @@ public class Elephant extends Animals {
         super(name, age, weight);
     }
 
+    public Elephant() {
+        super();
+    }
+
     @Override
     public void say() {
         System.out.println("Труууу");

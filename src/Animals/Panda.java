@@ -6,6 +6,10 @@ public class Panda extends Animals {
         super(name, age, weight);
     }
 
+    public Panda() {
+        super();
+    }
+
     @Override
     public void say() {
         System.out.println("Уаауаа");

@@ -2,8 +2,11 @@ package Animals;
 
 public class Lion extends Animals {
 
+    public Lion() {
+        super();
+    }
+
     public Lion(String name, int age, int weight) {
-        super(name, age, weight);
     }
 
     @Override
