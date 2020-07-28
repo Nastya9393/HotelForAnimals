@@ -38,9 +38,8 @@ public class Hotel {
         }
 
     }
-    // 123
 
-        public static void Clinic () {
+           public static void Clinic () {
         ArrayList<Animals> animals = new ArrayList<>();
         if (type.equals(lion)) {
             animals.add(new Lion(name, age, weight));
